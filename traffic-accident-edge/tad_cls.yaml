@@ -1,0 +1,7 @@
+path: /home/olzhas/programming/traffic-accident-edge/TAD-benchmark/TAD-YOLO-CLS
+train: train
+val: val
+test: test
+names:
+  0: accident
+  1: normal
