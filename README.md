@@ -1,7 +1,4 @@
 # CCTV-traffic-accidents-detection-for-edge-devices
-Optimization of online (real-time) CCTV traffic accidents detection for edge devices
-
-# Traffic Accident Detection on Edge Devices
 
 This project explores **automatic traffic accident detection** from fixed CCTV cameras using deep learning, with the constraint that the final system should be deployable on a **resource-constrained edge device** (Raspberry Pi).
 
