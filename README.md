@@ -51,7 +51,6 @@ traffic-accident-edge/
     yolo8_train.ipynb          #or yolo_cls_train.ipynb
     yolo_baseline.ipynb
     convlstm_train.ipynb
-    (optional) eval_yolo_vs_convlstm.ipynb
   TAD-benchmark/
     splits.json                #video -> split + label
     clips_index.json           #central clip index (16-frame clips)
@@ -63,7 +62,7 @@ traffic-accident-edge/
       test/accident/
       test/normal/
       tad_cls.yaml             #YOLO classification config
-  best.pt                      #fine-tuned YOLOv8n-cls weights (optional)
-  convlstm_best.pth            #best ConvLSTM checkpoint (optional)
-  edge_inference_yolo.py       #Raspberry Pi demo script
+  best.pt                      #fine-tuned YOLOv8n-cls weights 
+  convlstm_best.pth            #best ConvLSTM checkpoint
+  edge_inference_yolo.py       #Raspberry Pi script
   README.md
